@@ -5,7 +5,15 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background: linear-gradient(45deg, #210124
+  , 
+  #20063B, 
+  #0b1d2f, 
+  #6288b1);
+  background-size: 300% 300%;
+  animation: color 20s ease-in-out infinite;
+  ;
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,9 +21,22 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
 a {
   font-weight: 500;
-  color: red;
+  font-size: 1.2rem;
+  color: #bfd2de;
   text-decoration: inherit;
 }
 
@@ -72,11 +93,14 @@ button:focus-visible {
 /* Component/Header */
 header {
   display: flex;
+  background-color: #235789;
   justify-content: space-evenly;
-  border-bottom: 1px solid white;
+  border-bottom: 8px dashed #bfd2d9;
   align-items: center;
 }
 
 .nav-bar {
   display: flex;
+  width: 100%;
+  justify-content: space-evenly;
 }
