@@ -4,14 +4,14 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background: linear-gradient(45deg, #210124
-  , 
+  color: #bfd2de;
+  background: linear-gradient(45deg, #210124, 
   #20063B, 
   #0b1d2f, 
   #6288b1);
-  background-size: 300% 300%;
-  animation: color 20s ease-in-out infinite;
+  background-image: url(../public/ocean-view.jpg);
+  background-size: 150% 150%;
+  animation: color 80s ease-in-out infinite;
   ;
 
 
@@ -93,11 +93,18 @@ button:focus-visible {
 /* Component/Header */
 header {
   display: flex;
-  background-color: #235789;
+  background: none;
+  background: #210124a7;
   justify-content: space-evenly;
-  border-bottom: 8px dashed #bfd2d9;
+  border-bottom: 3px solid #bfd2d9;
   align-items: center;
+  transition: background 0.7s ease-in-out
 }
+
+header:hover {
+  background: #210124;
+}
+
 
 .nav-bar {
   display: flex;

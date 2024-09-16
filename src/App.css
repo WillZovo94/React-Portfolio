@@ -1,5 +1,5 @@
 /* Pages/About */
-#about-div {
+#about-div, #portfolio-div, #contact-div, #resume-div {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -14,23 +14,40 @@
 }
 
 #about-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   border-radius: 20px;
   font-size: 1.5rem;
-  box-shadow: 0px 0px 5px 0px white;
   height: 100%;
   width: 50%;
+  transition: background 0.5s ease-in-out,
+  transform 0.5s ease-in-out;
+  padding: 0 10px;
+  background: #21012496;
+}
+
+#about-info:hover {
+  background: #210124;
 }
 
 #about-section {
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 #profile-img {
   width: 300px;
-  background: linear-gradient(rgba(0,0,0,0.0) 50%, blue);
+  background: linear-gradient(rgba(0,0,0,0.0) 50%, #210124);
   border-radius: 20px;
-  animation: background 2s ease-in-out infinite;
+  transition: box-shadow 0.5s ease-in-out,
+  transform 0.5s ease-in-out;
+}
+
+#profile-img:hover {
+  box-shadow: 0px 0px 10px 1px inset white;
+  transform: scale(1.1);
 }
