@@ -11,6 +11,8 @@
   #6288b1);
   background-image: url(../public/ocean-view.jpg);
   background-size: 150% 150%;
+  background-repeat: no-repeat;
+  height: 100vh;
   animation: color 80s ease-in-out infinite;
   ;
 

@@ -11,6 +11,9 @@
 #about-title {
   margin: 0;
   font-size: 2.5rem;
+  background-color: #210124;
+  padding: 5px 10px;
+  border-radius: 15px;
 }
 
 #about-info {
@@ -50,4 +53,100 @@
 #profile-img:hover {
   box-shadow: 0px 0px 10px 1px inset white;
   transform: scale(1.1);
+}
+
+/* pages/portfolio */
+
+#project-page-title {
+  background: #210124;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 2.5rem;
+}
+
+#project-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  gap: 15px;
+  justify-items: center;
+}
+
+/* For screens larger than 992px */
+@media screen and (min-width: 992px) {
+  #project-list {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  }
+}
+
+/* For screens between 768px and 991px */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #project-list {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  }
+}
+
+/* For screens smaller than 768px */
+@media screen and (max-width: 767px) {
+  #project-list {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  }
+}
+
+/* For screens smaller than 480px */
+@media screen and (max-width: 479px) {
+  #project-list {
+    grid-template-columns: 1fr; /* 1 column */
+  }
+}
+
+.project-item {
+  width: 300px;
+  height: 310px;
+  margin: 0 10px;
+  background-color: #210124;
+  border-radius: 15px;
+  opacity: 0.8;
+  transition: opacity 0.5s ease-in-out
+}
+
+.project-item:hover {
+  opacity: 1;
+}
+
+.portfolio-img {
+  width: 250px;
+  height: 200px;
+  border-radius: 15px;
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.portfolio-img:hover {
+  transform: scale(1.1);
+}
+
+.link-div {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectView-link {
+  margin-right: 15px;
+}
+
+/* pages/contact */
+
+#contact-page, #form, .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#form {
+  width: 50%;
 }
