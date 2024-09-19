@@ -1,5 +1,4 @@
 
-
 const myProjects = [
     {
         title: 'CheapSkate Gamer',
@@ -30,6 +29,12 @@ const myProjects = [
         image: '../public/taskboard.png',
         url: 'https://willzovo94.github.io/Task-board-management-application/',
         github: 'https://github.com/WillZovo94/Task-board-management-application',        
+    },
+    {
+        title: 'Employee Payroll Tracker',
+        image: '../public/employee-tracker.png',
+        url: 'https://willzovo94.github.io/Employee-Payroll-Tracker/',
+        github: 'https://github.com/WillZovo94/Employee-Payroll-Tracker'
     }
 
 

@@ -5,6 +5,7 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import './App.css'
 import Header from './component/Header.jsx';
+import Footer from './component/Footer.jsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/Portfolio" element={<Portfolio />}></Route>
       <Route path="/Resume" element={<Resume />}></Route>
     </Routes>
+    <Footer />
     </>
   )
 }
