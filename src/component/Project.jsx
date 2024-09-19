@@ -2,7 +2,7 @@ const myProjects = [
     {
         title: 'CheapSkate Gamer',
         image: '../public/cheapskate-gamer.png',
-        url: 'https://dashboard.render.com/d/dpg-cqtqogdsvqrc73agc360-a',
+        url: 'https://drive.google.com/file/d/14_sbJMXFA4PCdJ_wUFjySImmBDObXnlk/view?usp=drive_link',
         github: 'https://github.com/WillZovo94/CheapSkate-Gamer/tree/main?tab=readme-ov-file',        
     },
     {
