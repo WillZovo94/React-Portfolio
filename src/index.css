@@ -128,6 +128,12 @@ header:hover {
   justify-content: space-evenly;
 }
 
+.active {
+  font-weight: bold;
+  color: white;
+  font-style: italic;
+}
+
 
 #footer {
   position: relative;
