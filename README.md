@@ -8,13 +8,13 @@
 
 ## Usage
 - The page loads into the About section as a homepage. From there you're given some details about me and a profile picture as well!
-![About Page](/Public/About-Page.png)
+![About Page](/public/About-Page.png)
 - You're given a Portfolio section, which gives you access to some projects I worked on and the links associated with them!
-![Portfolio Page](/Public/Portfolio-Page.png)
+![Portfolio Page](/public/Portfolio-Page.png)
 - A Contact section, which gives you access to contact me with a name, email, and a message!
-![Contact Page](/Public/Contact-Page.png)
+![Contact Page](/public/Contact-Page.png)
 - Lastly, a Resume section, which gives you access to some proficiencies about me and a downloadable PDF Resume!
-![Resume Page](/Public/Resume-Page.png)
+![Resume Page](/public/Resume-Page.png)
 
 ## License
 - License under MIT License. For more information: [license](https://opensource.org/license/MIT)
