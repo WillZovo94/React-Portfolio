@@ -6,7 +6,7 @@ const About = () => {
         <div id="container"></div>
             <h2 id="about-title">About Me</h2>
             <div id="about-section">
-                <img id="profile-img" src="../../public/profile-pic.jpg"></img>
+                <img id="profile-img" src="profile-pic.jpg"></img>
                 <p id="about-info">Hello! My name is William and welcome to my portfolio. 
                     Avid fisherman and outdoor person that took interest into the digital world.
                     Once I took the journey to self teaching and attending the University of Minnesota bootcamp,

@@ -1,37 +1,37 @@
 const myProjects = [
     {
         title: 'CheapSkate Gamer',
-        image: '../public/cheapskate-gamer.png',
-        url: 'https://drive.google.com/file/d/14_sbJMXFA4PCdJ_wUFjySImmBDObXnlk/view?usp=drive_link',
+        image: 'cheapskate-gamer.png',
+        url: 'https://dashboard.render.com/d/dpg-cqtqogdsvqrc73agc360-a',
         github: 'https://github.com/WillZovo94/CheapSkate-Gamer/tree/main?tab=readme-ov-file',        
     },
     {
         title: 'Express Note Taker',
-        image: '../public/express-note-taker.png',
+        image: 'express-note-taker.png',
         url: 'https://express-note-taker-3bam.onrender.com',
         github: 'https://github.com/WillZovo94/Express-Note-Taker',        
     },
     {
         title: 'ClimateView Weather Dashboard',
-        image: '../public/climate-view.png',
+        image: 'climate-view.png',
         url: 'https://willzovo94.github.io/ClimateView-Weather-Dashboard/',
         github: 'https://github.com/WillZovo94/ClimateView-Weather-Dashboard',        
     },
     {
         title: 'Sunset Lounge Personal Blog',
-        image: '../public/sunset-lounge.png',
+        image: 'sunset-lounge.png',
         url: 'https://willzovo94.github.io/Sunset-Lounge-Personal-Blog/',
         github: 'https://github.com/WillZovo94/Sunset-Lounge-Personal-Blog?tab=readme-ov-file',        
     },
     {
         title: 'Taskboard Management App',
-        image: '../public/taskboard.png',
+        image: 'taskboard.png',
         url: 'https://willzovo94.github.io/Task-board-management-application/',
         github: 'https://github.com/WillZovo94/Task-board-management-application',        
     },
     {
         title: 'Employee Payroll Tracker',
-        image: '../public/employee-tracker.png',
+        image: 'employee-tracker.png',
         url: 'https://willzovo94.github.io/Employee-Payroll-Tracker/',
         github: 'https://github.com/WillZovo94/Employee-Payroll-Tracker'
     }
