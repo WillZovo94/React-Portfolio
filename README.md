@@ -1,6 +1,6 @@
 # React Portfolio
 
-[React Portfolio]()
+[React Portfolio](https://williamzreactportfolio.netlify.app/)
 
 ## Description 
 - This is a portfolio built using React. The react portfolio includes an about me, portfolio, contact, and resume page located on the header as a navigational bar. On the footer you're also given a few other links which include; Github, Linkedin, and facebook.
