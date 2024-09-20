@@ -6,6 +6,7 @@
   text-align: center;
   justify-content: space-evenly;
   align-items: center;
+  min-height: 75vh;
 }
 
 #about-title {

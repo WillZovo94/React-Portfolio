@@ -138,7 +138,7 @@ header:hover {
 #footer {
   position: relative;
   display: flex;
-  background-color: #210124;
+  background: linear-gradient(#6288b1, #213547 90%);
   border-top: 3px solid #bfd2d9;
   justify-content: center;
   align-items: center;
