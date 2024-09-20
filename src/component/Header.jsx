@@ -1,6 +1,6 @@
 import { NavLink  } from 'react-router-dom';
 
-
+// Creating header with Navigational Links, and activeClassName so when its an active page the text design is different.
 const Header = () => {
     return (
         <header className="header">

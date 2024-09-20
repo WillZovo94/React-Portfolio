@@ -1,3 +1,4 @@
+// Project Lists
 const myProjects = [
     {
         title: 'CheapSkate Gamer',
@@ -39,6 +40,7 @@ const myProjects = [
 
 ]
 
+// Makes new projects per each in the array
 const Project = () => {
     return (
         <div id="portfolio-div">

@@ -1,3 +1,4 @@
+// Footer with href links, and img.
 const Footer = () => {
     return (
         <footer id="footer">
